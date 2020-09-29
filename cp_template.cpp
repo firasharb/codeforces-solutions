@@ -26,5 +26,9 @@ int main() {
   ios_base::sync_with_stdio(false);
   cin.tie(NULL);
 
-  solve();
+  int t; 
+  cin >> t;
+
+  FOR(i, 0, t) 
+    solve();
 }
